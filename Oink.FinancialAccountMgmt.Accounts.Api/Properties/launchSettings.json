@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Oink.FinancialAccountMgmt.Accounts.Api": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34534,
+      "useSSL": false
+    }
+  }
+}

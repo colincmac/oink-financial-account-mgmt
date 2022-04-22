@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oink.FinancialAccountMgmt.Domain", "Oink.FinancialAccountMgmt.Domain\Oink.FinancialAccountMgmt.Domain.csproj", "{70BBF2BA-286E-4841-A0DD-7F6F42FB2010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oink.FinancialAccountMgmt.Accounts.Api", "Oink.FinancialAccountMgmt.Accounts.Api\Oink.FinancialAccountMgmt.Accounts.Api.csproj", "{F686B8D5-37A1-404D-91CB-DCD5B24DF4D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70BBF2BA-286E-4841-A0DD-7F6F42FB2010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BBF2BA-286E-4841-A0DD-7F6F42FB2010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BBF2BA-286E-4841-A0DD-7F6F42FB2010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BBF2BA-286E-4841-A0DD-7F6F42FB2010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F686B8D5-37A1-404D-91CB-DCD5B24DF4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F686B8D5-37A1-404D-91CB-DCD5B24DF4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F686B8D5-37A1-404D-91CB-DCD5B24DF4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F686B8D5-37A1-404D-91CB-DCD5B24DF4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60DA8181-B834-4914-9FE6-237646D93C52}
+	EndGlobalSection
+EndGlobal
