@@ -4,10 +4,13 @@ FROM mcr.microsoft.com/azure-functions/dotnet:4 AS base
 WORKDIR /home/site/wwwroot
 EXPOSE 80
 
+
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+ARG OINK_NUGET_KEY
 WORKDIR /src
 COPY ["Oink.FinancialAccountMgmt.Accounts.Api/Oink.FinancialAccountMgmt.Accounts.Api.csproj", "Oink.FinancialAccountMgmt.Accounts.Api/"]
 COPY ["Oink.FinancialAccountMgmt.Domain/Oink.FinancialAccountMgmt.Domain.csproj", "Oink.FinancialAccountMgmt.Domain/"]
+COPY nuget.config .
 RUN dotnet restore "Oink.FinancialAccountMgmt.Accounts.Api/Oink.FinancialAccountMgmt.Accounts.Api.csproj"
 COPY . .
 WORKDIR "/src/Oink.FinancialAccountMgmt.Accounts.Api"
